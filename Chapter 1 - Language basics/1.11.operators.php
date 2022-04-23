@@ -69,7 +69,7 @@ $x = $y = 5;
 // is executed in the following order: $y = 5 then $x = $y (= has a right associativity)
 $x = 5 / 2 * 10;
 // is executed in the following order: 5/2 then *10 (left associativity)
-$x = 5 < 3 > 10;
+// $x = 5 < 3 > 10;
 // doesn't work, non-associative
 $x = true;
 $y = false;
